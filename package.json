@@ -1,0 +1,23 @@
+{
+  "name": "web-agent",
+  "module": "src/app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "langchain": "^0.2.18",
+    "openai": "^4.57.3",
+    "playwright": "^1.46.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.2.0",
+    "@types/node": "^22.5.4",
+    "eslint": "^9.9.1"
+  }
+}
